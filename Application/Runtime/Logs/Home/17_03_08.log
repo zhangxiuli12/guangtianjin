@@ -1,0 +1,3105 @@
+[ 2017-03-08T09:44:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.5410s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0500s ]
+
+[ 2017-03-08T09:47:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: a_pic E:\zhangxiuli\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 334 行.
+SQL: INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`) VALUES ('赵四','古龙','权威的武器额度为企鹅的气味企鹅去','4') [ RunTime:0.1270s ]
+
+[ 2017-03-08T09:47:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0100s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`,`a_pic`) VALUES ('赵四','古龙','权威的武器额度为企鹅的气味企鹅去','4','/Public/uploads/art/pic/00.jpg.jpg') [ RunTime:0.0020s ]
+
+[ 2017-03-08T09:48:44+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0120s ]
+SQL: SELECT `c_id`,`c_rec` FROM `g_cate` WHERE `c_id` = '18' LIMIT 1   [ RunTime:0.0350s ]
+SQL: UPDATE `g_cate` SET `c_rec`='1' WHERE `c_id` = '18' [ RunTime:0.0210s ]
+
+[ 2017-03-08T09:57:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0090s ]
+SQL: SELECT `c_id`,`c_rec` FROM `g_cate` WHERE `c_id` = '5' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_cate` SET `c_rec`='1' WHERE `c_id` = '5' [ RunTime:0.0010s ]
+
+[ 2017-03-08T09:57:34+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0100s ]
+SQL: SELECT `c_id`,`c_rec` FROM `g_cate` WHERE `c_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_cate` SET `c_rec`='0' WHERE `c_id` = '5' [ RunTime:0.0000s ]
+
+[ 2017-03-08T09:57:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0090s ]
+SQL: SELECT `c_id`,`c_rec` FROM `g_cate` WHERE `c_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_cate` SET `c_rec`='1' WHERE `c_id` = '5' [ RunTime:0.0010s ]
+
+[ 2017-03-08T09:58:38+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0110s ]
+SQL: SELECT `c_id`,`c_rec` FROM `g_cate` WHERE `c_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_cate` SET `c_rec`='0' WHERE `c_id` = '5' [ RunTime:0.0010s ]
+
+[ 2017-03-08T09:59:33+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0110s ]
+SQL: SELECT `c_id`,`c_hide` FROM `g_cate` WHERE `c_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_cate` SET `c_hide`='1' WHERE `c_id` = '5' [ RunTime:0.0010s ]
+
+[ 2017-03-08T10:01:30+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0100s ]
+SQL: SELECT `a_id` FROM `g_article` WHERE `a_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T10:01:44+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0090s ]
+SQL: SELECT `a_id` FROM `g_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: a_pic E:\zhangxiuli\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 375 行.
+SQL: UPDATE `g_article` SET `c_id`='4' WHERE `a_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-08T10:02:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0110s ]
+SQL: SELECT `a_id` FROM `g_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `g_article` WHERE `a_id` = 1 [ RunTime:0.0260s ]
+
+[ 2017-03-08T10:03:30+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0090s ]
+SQL: SELECT `a_id`,`a_lock` FROM `g_article` WHERE `a_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_article` SET `a_lock`='0' WHERE `a_id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-03-08T10:06:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: validate E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `g_activity` (`ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_content`) VALUES ('活动','开拓软件','2080-02-02 15:30:30','2090-02-02 15:30:30','联合国世纪大会') [ RunTime:0.0020s ]
+
+[ 2017-03-08T10:07:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T10:08:50+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0450s ]
+NOTIC: [8] Undefined index: validate E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `g_activity` (`ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_content`,`ac_mobile`,`ac_address`) VALUES ('活动','开拓软件','2080-02-02 15:30:30','2090-02-02 15:30:30','联合国世纪大会','15888888888','快乐大本营') [ RunTime:0.0020s ]
+
+[ 2017-03-08T10:17:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0090s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\zhangxiuli\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_source`='柔柔弱弱',`ac_startime`='1970-02-02 15:30:30' WHERE `ac_id` = 1 [ RunTime:0.0100s ]
+
+[ 2017-03-08T10:18:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0110s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `g_activity` WHERE `ac_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-08T10:24:09+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0100s ]
+SQL: SELECT `ac_id`,`ac_lock` FROM `g_activity` WHERE `ac_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_activity` SET `ac_lock`='1' WHERE `ac_id` = 2 [ RunTime:0.0020s ]
+
+[ 2017-03-08T11:05:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.2100s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-08T11:29:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.1340s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0180s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0340s ]
+
+[ 2017-03-08T12:02:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T12:03:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T12:03:58+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T13:56:48+08:00 ] 192.168.3.18 /guangtianjin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.075005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T13:56:54+08:00 ] 192.168.3.18 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T13:56:57+08:00 ] 192.168.3.18 /guangtianjin/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T13:57:03+08:00 ] 192.168.3.18 /guangtianjin/index.php/home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T13:58:52+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:00:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:00:52+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:02:12+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:02:17+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:02:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-08T14:02:24+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:02:51+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:03:14+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:03:18+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:03:26+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:03:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:03:50+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:08:52+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:08:57+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:08:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:09:34+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:09:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:09:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:09:53+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-08T14:10:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-03-08T14:12:17+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0510s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:12:43+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:12:50+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:17:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:17:27+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:18:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:18:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:18:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:18:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:23:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-08T14:23:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:24:00+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:25:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:25:29+08:00 ] 192.168.3.22 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T14:27:04+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:27:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:29:53+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:30:17+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:33:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:34:18+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:34:43+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:35:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:37:18+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:37:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:41:04+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:41:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:42:38+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:42:56+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:43:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:43:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:44:13+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:44:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:44:40+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:44:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:44:57+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:45:00+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:46:02+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:47:03+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:56:02+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0240s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:56:12+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:56:14+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:58:53+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:58:56+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:59:00+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:11+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:30+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T14:59:38+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T14:59:40+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-08T14:59:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T14:59:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T14:59:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:00:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:00:37+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:00:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:03+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:01:07+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:01:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T15:01:14+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:01:18+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:19+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:19+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:19+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-08T15:01:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:01:57+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:01:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '4' [ RunTime:0.0730s ]
+
+[ 2017-03-08T15:03:43+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:08:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T15:09:00+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:09:37+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:09:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:26+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:31+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:11:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '2' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '4' [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:11:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '5' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:11:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '6' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:11:38+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '2' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:11:54+08:00 ] 192.168.3.22 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T15:12:28+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:28+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:12:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '6' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '7' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:12:36+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '5' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:12:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:12:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:13:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:16:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:16:24+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:16:26+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0140s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '5' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-08T15:16:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:16:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:16:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:16:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:16:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:16:37+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:17:03+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:17:07+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:17:08+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0260s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:17:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:17:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:17:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:17:50+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:17:54+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:18:05+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:18:29+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:18:30+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:18:46+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:19:45+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T15:19:55+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:20:12+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:20:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:20:41+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0050s ]
+SQL: SELECT `d_day` FROM `g_download` WHERE `d_date` = '2017-03-02' LIMIT 1   [ RunTime:0.0140s ]
+
+[ 2017-03-08T15:20:50+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '7' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:20:50+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:20:51+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '4' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:20:51+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:20:52+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '2' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:20:52+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:21:05+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:21:33+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0050s ]
+SQL: SELECT `d_count` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:22:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:22:45+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0050s ]
+SQL: SELECT `d_month` FROM `g_download` WHERE `d_month_date` = '2017-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:23:56+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0050s ]
+SQL: SELECT `d_week` FROM `g_download` WHERE `d_week_date` = '09' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:25:10+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0050s ]
+SQL: SELECT `r_day` FROM `g_regnum` WHERE `r_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:25:58+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0050s ]
+SQL: SELECT `r_count` FROM `g_regnum` ORDER BY r_id desc  LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:28:52+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0050s ]
+SQL: SELECT `r_month` FROM `g_regnum` WHERE `r_month_date` = '2017-02' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:30:27+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T15:30:51+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0050s ]
+SQL: SELECT `r_week` FROM `g_regnum` WHERE `r_week_date` = '09' ORDER BY r_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:40:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:40:13+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:41:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:41:36+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:41:37+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:41:38+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '6' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:41:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '1' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:41:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:42:54+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:36+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:38+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '2' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:43:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:40+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '6' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '6' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:43:41+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '7' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:44+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:46+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:43:46+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:44:57+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:44:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '4' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:44:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:47:02+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:47:06+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:47:08+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:49:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:49:46+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:49:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:49:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:49:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:49:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '1' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:49:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '1' [ RunTime:0.0030s ]
+
+[ 2017-03-08T15:51:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '7' [ RunTime:0.0010s ]
+
+[ 2017-03-08T15:51:29+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T15:51:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '7' [ RunTime:0.0000s ]
+
+[ 2017-03-08T15:51:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T16:22:14+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T16:22:22+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T16:22:24+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T16:22:28+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T16:22:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '7' [ RunTime:0.0010s ]
+
+[ 2017-03-08T16:22:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='0' WHERE `u_id` = '7' [ RunTime:0.0000s ]
+
+[ 2017-03-08T16:22:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_lock` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_lock`='1' WHERE `u_id` = '7' [ RunTime:0.0000s ]
+
+[ 2017-03-08T16:22:34+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T16:54:33+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: c_icon D:\phpStudy\WWW\guangtianjin\Application\Home\Controller\BackController.class.php 第 153 行.
+
+[ 2017-03-08T16:54:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: c_icon D:\phpStudy\WWW\guangtianjin\Application\Home\Controller\BackController.class.php 第 153 行.
+
+[ 2017-03-08T16:55:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: c_icon D:\phpStudy\WWW\guangtianjin\Application\Home\Controller\BackController.class.php 第 153 行.
+
+[ 2017-03-08T16:56:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T16:56:27+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T17:05:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:05:19+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0740s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-08T17:08:07+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:08:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T17:16:08+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:16:26+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:17:27+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:18:49+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `g_cate` (`c_name`,`c_icon`) VALUES ('sddz ','/Public/uploads/cate/icon/58bfcc79d3ff5.png') [ RunTime:0.0020s ]
+
+[ 2017-03-08T17:19:15+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `g_cate` (`c_name`,`c_icon`) VALUES ('sddz ','/Public/uploads/cate/icon/58bfcc93b1724.png') [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:30:12+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'u_id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(u_id) AS tp_count FROM `g_cate` LIMIT 1  
+ERR: 1054:Unknown column 'u_id' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(u_id) AS tp_count FROM `g_cate` LIMIT 1  
+
+[ 2017-03-08T17:30:39+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:34:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0400s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:34:32+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:36:54+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0070s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:37:04+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0070s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T17:37:31+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:37:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:41:58+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0070s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T17:42:04+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:42:15+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:42:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:42:24+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:42:36+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:43:15+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0070s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:43:25+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:44:28+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:54:55+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:55:02+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:55:19+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T17:55:26+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0240s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:55:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0070s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:56:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T17:56:46+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-08T17:56:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:57:35+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:57:42+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0340s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T17:57:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:03:06+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:04:01+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/catepic/cate/1487925331.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:04:08+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Public/uploads/catepic/cate/1487925331.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/catepic/cate/1487925331.jpg?0.3869031287008302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3d8ca345d6.png?0.06230470210331518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc79d3ff5.png?0.9589276942667653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc93b1724.png?0.5634449619080377
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3de60888c1.png?0.4662898883375399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3d8ca345d6.png?0.04683715956260026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/catepic/cate/1487925331.jpg?0.022170959602495488
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3de60888c1.png?0.7596741604302588
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc79d3ff5.png?0.7419325651811659
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:05:20+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc93b1724.png?0.05282514581098563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:09:39+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0060s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58b3de60888c1.png?0.6609658871292647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58b3d8ca345d6.png?0.6761495582907406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58bfcc79d3ff5.png?0.6138742422354697
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58bfcc93b1724.png?0.5223005026625727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:21+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/catepic/cate/1487925331.jpg?0.7412103427105938
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58b3d8ca345d6.png?0.32133204567109397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:14:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58bfcc79d3ff5.png?0.4054132407199946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/catepic/cate/1487925331.jpg?0.15349850060012504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58b3de60888c1.png?0.4848212691220981
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:14:23+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/guangtianjin/Public/uploads/cate/icon/58bfcc93b1724.png?0.03823063875038191
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:09+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0090s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/catepic/cate/1487925331.jpg?0.3319822493629132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3d8ca345d6.png?0.10481292309847934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3de60888c1.png?0.14692183065087616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc79d3ff5.png?0.7990259224005201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc93b1724.png?0.9152574779828841
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/catepic/cate/1487925331.jpg?0.4488577274496297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3d8ca345d6.png?0.7397635838616918
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc93b1724.png?0.43321340432047517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58bfcc79d3ff5.png?0.03815140891278612
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-08T18:15:10+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home//Public/uploads/cate/icon/58b3de60888c1.png?0.9493423460888728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-08T18:15:32+08:00 ] 192.168.3.22 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T18:15:32+08:00 ] 192.168.3.22 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T18:15:33+08:00 ] 192.168.3.22 /guangtianjin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2017-03-08T18:15:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0050s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-08T18:16:48+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0080s ]
+SQL: SELECT `c_id`,`c_name`,`c_icon`,`c_rec`,`c_hide` FROM `g_cate` LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(c_id) AS tp_count FROM `g_cate` LIMIT 1   [ RunTime:0.0010s ]
+

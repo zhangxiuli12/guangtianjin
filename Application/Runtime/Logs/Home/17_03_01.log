@@ -1,0 +1,472 @@
+[ 2017-03-01T09:33:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: s_logo D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 671 行.
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `g_system` (`s_id`) VALUES ('1')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `g_system` (`s_id`) VALUES ('1')
+
+[ 2017-03-01T09:34:28+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: s_logo D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 671 行.
+NOTIC: [8] Undefined variable: set D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:Erreur de syntaxe près de 'WHERE `s_id` = 1' à la ligne 1
+ [ SQL语句 ] : UPDATE `g_system` SET  WHERE `s_id` = 1
+ERR: 1064:Erreur de syntaxe près de 'WHERE `s_id` = 1' à la ligne 1
+ [ SQL语句 ] : UPDATE `g_system` SET  WHERE `s_id` = 1
+
+[ 2017-03-01T09:35:03+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: s_logo D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 671 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走' WHERE `s_id` = 1 [ RunTime:0.0580s ]
+
+[ 2017-03-01T09:36:53+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-03-01T09:37:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_logo`='/Public/uploads/logo/logo/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T09:39:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\php346B.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\php346C.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+
+[ 2017-03-01T09:40:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\phpB510.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\phpB521.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+
+[ 2017-03-01T09:40:24+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\php479.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(D:\wamp\tmp\php48A.tmp): failed to open stream: No such file or directory D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+
+[ 2017-03-01T09:40:38+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_keword`='皮皮虾',`s_logo`='/Public/uploads/logo/logo/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T09:41:05+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_keword`='皮皮虾',`s_logo`='/Public/uploads/logo/logo/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T09:41:16+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-01T09:41:58+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_keword`='皮皮虾',`s_logo`='/Public/uploads/logo/logo/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-01T09:42:27+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_keword`='皮皮虾',`s_logo`='/Public/uploads/logo/logo/logo.png' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T09:43:07+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: s_watermark D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 682 行.
+SQL: UPDATE `g_system` SET `s_conten`='皮皮虾，我们走',`s_keword`='皮皮虾',`s_logo`='/Public/uploads/logo/logo/logo.png' WHERE `s_id` = 1 [ RunTime:0.0040s ]
+
+[ 2017-03-01T10:15:08+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0190s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:15:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0160s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:15:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0150s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-01T10:16:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0170s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_watermark`='/Public/uploads/watermark/watermark/logo.png,/Public/uploads/watermark/watermark/logo.png' WHERE `s_id` = 1 [ RunTime:0.0180s ]
+
+[ 2017-03-01T10:16:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0140s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_watermark`='/Public/uploads/watermark/watermark/logo.png,/Public/uploads/watermark/watermark/logo.png' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:16:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0160s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_watermark`='/Public/uploads/watermark/watermark/logo.png,/Public/uploads/watermark/watermark/logo.png' WHERE `s_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-03-01T10:19:24+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0170s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_watermark`='/Public/uploads/watermark/watermark/logo.png,/Public/uploads/watermark/watermark/logo.png' WHERE `s_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-01T10:19:28+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0320s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-01T10:19:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0150s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:19:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0150s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-01T10:19:43+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0140s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-01T10:19:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0070s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-01T10:20:22+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0170s ]
+SQL: SELECT `s_watermark` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_watermark`='/Public/uploads/watermark/watermark/logo.png,/Public/uploads/watermark/watermark/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-03-01T10:21:09+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0250s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_system` SET `s_logo`='/Public/uploads/logo/logo/logo.png,/Public/uploads/logo/logo/logo.jpg' WHERE `s_id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:21:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0180s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:21:38+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0240s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:21:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `g_system` [ RunTime:0.0610s ]
+SQL: SELECT `s_logo` FROM `g_system` WHERE `s_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T10:23:17+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-01T10:23:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-01T10:27:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-03-01T10:28:02+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-01T15:38:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.087005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-03-01T16:07:07+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-01T16:08:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

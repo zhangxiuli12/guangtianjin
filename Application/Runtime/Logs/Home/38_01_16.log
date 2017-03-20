@@ -1,0 +1,165 @@
+[ 2038-01-16T11:28:31+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:28:33+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:30:08+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:37:26+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:38:20+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:38:51+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:40:53+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2038-01-16T11:41:08+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:42:49+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2038-01-16T11:42:49+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2038-01-16T11:43:45+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2038-01-16T11:43:50+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:43:53+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0130s ]
+
+[ 2038-01-16T11:43:59+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2038-01-16T11:44:01+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `g_cate`  [ RunTime:0.0020s ]
+
+[ 2038-01-16T11:44:01+08:00 ] 192.168.3.21 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_cate`  [ RunTime:0.0010s ]
+
+[ 2038-01-16T11:47:22+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+

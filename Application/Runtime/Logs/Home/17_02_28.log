@@ -1,0 +1,900 @@
+[ 2017-02-28T09:41:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031002s ]
+
+[ 2017-02-28T09:42:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T09:43:17+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-28T09:43:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-28T09:44:01+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T09:45:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0160s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`,`a_pic`) VALUES ('标题','作者','干啥呢','5','/Public/uploads/art/pic/00.jpg.jpg') [ RunTime:0.0390s ]
+
+[ 2017-02-28T09:46:36+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T09:46:42+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0110s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`,`a_pic`) VALUES ('我是标题','我是作者','seia','5','/Public/uploads/art/pic/01.jpg.jpg') [ RunTime:0.0010s ]
+
+[ 2017-02-28T10:01:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-02-28T10:01:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: a_pic D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 349 行.
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`,`a_id`) VALUES ('我是标题','我是作者','seia','5','1')
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `g_article` (`a_title`,`a_author`,`a_content`,`c_id`,`a_id`) VALUES ('我是标题','我是作者','seia','5','1')
+
+[ 2017-02-28T10:01:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: a_pic D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 349 行.
+SQL: UPDATE `g_article` SET `a_title`='我是标题',`a_author`='我是作者',`a_content`='seia',`c_id`='5' WHERE `a_id` = 1 [ RunTime:0.0310s ]
+
+[ 2017-02-28T10:02:07+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: a_pic D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 349 行.
+SQL: UPDATE `g_article` SET `a_title`='pic我是标题',`a_author`='我是作者hello',`a_content`='seia',`c_id`='5' WHERE `a_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-02-28T10:12:36+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T10:12:40+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T10:12:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0090s ]
+SQL: SELECT `a_id` FROM `g_article` WHERE `a_id` = 2 LIMIT 1   [ RunTime:0.0270s ]
+SQL: DELETE FROM `g_article` WHERE `a_id` = 2 [ RunTime:0.0250s ]
+
+[ 2017-02-28T10:19:30+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0160s ]
+SQL: SELECT `a_id`,`a_lock` FROM `g_article` WHERE `a_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: UPDATE `g_article` SET `a_lock`='1' WHERE `a_id` = 1 [ RunTime:0.0060s ]
+
+[ 2017-02-28T10:33:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-02-28T10:34:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T10:36:00+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-28T10:36:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `g_activity` (`ac_title`,`ac_startime`,`ac_endtime`,`ac_content`,`ac_source`) VALUES ('野外郊游','2017-02-28','2017-02-28','杜拉拉升职记','来自逛天津') [ RunTime:0.0040s ]
+
+[ 2017-02-28T10:51:27+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T10:51:42+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0090s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_title`='野外郊游',`ac_startime`='2017-02-30',`ac_endtime`='2017-02-30',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0390s ]
+
+[ 2017-02-28T10:52:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0350s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_title`='',`ac_startime`='2017-02-30 02:00:00',`ac_endtime`='2017-02-30 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-02-28T10:52:36+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0170s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_title`='没有',`ac_startime`='2017-02-30 02:00:00',`ac_endtime`='2017-02-30 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-02-28T10:52:44+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0110s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_startime`='2017-02-30 02:00:00',`ac_endtime`='2017-02-30 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-02-28T10:54:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0090s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_startime`='2017-02-3000:00:00',`ac_endtime`='2017-02-21 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-02-28T10:54:53+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0150s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_startime`='2017-02-30 00:00:00',`ac_endtime`='2017-02-21 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0050s ]
+
+[ 2017-02-28T10:57:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0110s ]
+SQL: SELECT `ac_id` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `g_activity` SET `ac_startime`='2017-03-30 00:00:00',`ac_endtime`='2017-02-21 02:00:00',`ac_content`='拉肚子升职记',`ac_source`='来自五大道' WHERE `ac_id` = 1 [ RunTime:0.0020s ]
+
+[ 2017-02-28T11:06:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0210s ]
+SQL: SELECT `ac_id`,`ac_lock` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_activity` SET `ac_lock`='1' WHERE `ac_id` = 1 [ RunTime:0.0260s ]
+
+[ 2017-02-28T11:40:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0130s ]
+SQL: SELECT `ac_id`,`ac_lock` FROM `g_activity` WHERE `ac_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_activity` SET `ac_lock`='0' WHERE `ac_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-02-28T14:02:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-28T14:02:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T14:03:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0100s ]
+
+[ 2017-02-28T14:05:08+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T14:05:38+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T14:06:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T14:07:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T14:08:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+SQL: SELECT `d_day`,`d_date` FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T14:31:50+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+ERR: 1064:Erreur de syntaxe près de 'desc LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `d_count` FROM `g_download` ORDER BY d_id,desc LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de 'desc LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `d_count` FROM `g_download` ORDER BY d_id,desc LIMIT 1  
+
+[ 2017-02-28T14:34:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+ERR: 1064:Erreur de syntaxe près de 'desc LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `d_count` FROM `g_download` ORDER BY d_id,desc LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de 'desc LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `d_count` FROM `g_download` ORDER BY d_id,desc LIMIT 1  
+
+[ 2017-02-28T14:34:56+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0100s ]
+SQL: SELECT `d_count` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T14:47:44+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0140s ]
+SQL: SELECT `d_month` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T15:04:40+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T15:05:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0170s ]
+SQL: SELECT `d_month` FROM `g_download` GROUP BY 2017-02 ORDER BY d_id desc LIMIT 1   [ RunTime:0.1050s ]
+
+[ 2017-02-28T15:06:12+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0240s ]
+SQL: SELECT `d_month` FROM `g_download` GROUP BY 2017-01 ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:06:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0170s ]
+SQL: SELECT `d_month` FROM `g_download` GROUP BY 2017-00 ORDER BY d_id desc LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T15:23:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0230s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php on line 569 and defined D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `d_month` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:26:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0260s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: d_date D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 569 行.
+SQL: SELECT `d_month` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T15:27:10+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: d_date D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 569 行.
+SQL: SELECT `d_month`,`d_date` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:27:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0100s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: d_date D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 569 行.
+SQL: SELECT `d_month`,`d_date` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:29:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:42:34+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0020s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE ( d_month_date ) ORDER BY d_id desc LIMIT 1   [ RunTime:0.0360s ]
+
+[ 2017-02-28T15:44:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-00' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T15:44:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0140s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-01' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T15:44:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0200s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0030s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-02' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T15:44:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0020s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:46:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0020s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2016-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:47:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2016-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:48:03+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0010s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-28T15:48:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0270s ]
+SQL: SELECT `d_date` FROM `g_download`  [ RunTime:0.0040s ]
+SQL: SELECT `d_month`,`d_date` FROM `g_download` WHERE `d_month_date` = '2017-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:49:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT `d_count` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-02-28T15:52:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0090s ]
+SQL: SELECT `d_count` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:52:20+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+SQL: SELECT `d_day`,`d_date` FROM `g_download` WHERE `d_date` = '2017-03-01' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T15:52:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT `d_day`,`d_date` FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T15:52:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0130s ]
+SQL: SELECT `d_day`,`d_date` FROM `g_download` WHERE `d_date` = '2017-03-01' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T16:16:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029002s ]
+
+[ 2017-02-28T16:29:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT `d_month` FROM `g_download` WHERE `d_month_date` = '2017-03' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T16:29:38+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0140s ]
+SQL: SELECT `d_month` FROM `g_download` WHERE `d_month_date` = '2017-02' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-28T16:37:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0150s ]
+SQL: SELECT `d_month` FROM `g_download` WHERE `d_month_date` = '2017-02' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T16:37:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0220s ]
+SQL: SELECT `d_week` FROM `g_download` WHERE `d_week_date` = '09' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T16:37:34+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0110s ]
+SQL: SELECT `d_week` FROM `g_download` WHERE `d_week_date` = '08' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T17:11:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T17:11:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0170s ]
+SQL: SELECT `r_day` FROM `g_regnum` WHERE `r_date` = '2017-08-28' LIMIT 1   [ RunTime:0.0350s ]
+
+[ 2017-02-28T17:12:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0140s ]
+SQL: SELECT `r_day` FROM `g_regnum` WHERE `r_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-28T17:18:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0220s ]
+SQL: SELECT `r_count` FROM `g_regnum` ORDER BY r_id desc  LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T17:18:57+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0150s ]
+SQL: SELECT `r_count` FROM `g_regnum` ORDER BY r_id desc  LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T17:26:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0130s ]
+SQL: SELECT `r_count` FROM `g_regnum` ORDER BY r_id desc  LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-28T17:27:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-28T17:28:24+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0290s ]
+SQL: SELECT `r_month` FROM `g_regnum` WHERE `r_month_date` = '2017-02' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T17:28:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0110s ]
+SQL: SELECT `r_month` FROM `g_regnum` WHERE `r_month_date` = '2017-02' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-02-28T17:29:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0110s ]
+SQL: SELECT `r_month` FROM `g_regnum` WHERE `r_month_date` = '2017-03' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T17:34:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0140s ]
+ERR: 1054:Champ 'd_id' inconnu dans order clause
+ [ SQL语句 ] : SELECT `r_week` FROM `g_regnum` WHERE `r_week_date` = '09' ORDER BY d_id desc LIMIT 1  
+ERR: 1054:Champ 'd_id' inconnu dans order clause
+ [ SQL语句 ] : SELECT `r_week` FROM `g_regnum` WHERE `r_week_date` = '09' ORDER BY d_id desc LIMIT 1  
+
+[ 2017-02-28T17:34:59+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_regnum` [ RunTime:0.0080s ]
+SQL: SELECT `r_week` FROM `g_regnum` WHERE `r_week_date` = '09' ORDER BY r_id desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-28T17:14:38+08:00 ] 192.168.3.22 /guangtianjin/index.php/Home/Index/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_download` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `g_download` WHERE `d_date` = '2017-02-28' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `d_week` FROM `g_download` WHERE `d_week_date` = '2017第09周' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `d_month` FROM `g_download` WHERE `d_month_date` = '2017-02' ORDER BY d_id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `d_count` FROM `g_download` ORDER BY d_id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `g_download` (`d_day`,`d_date`,`d_week`,`d_month`,`d_count`,`d_week_date`,`d_month_date`) VALUES ('1','2017-02-28','1','1','5','2017第09周','2017-02') [ RunTime:0.0260s ]
+

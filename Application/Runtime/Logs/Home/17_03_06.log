@@ -1,0 +1,618 @@
+[ 2017-03-06T09:50:28+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f'  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.071004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.071004s ]
+
+[ 2017-03-06T09:50:40+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T09:51:09+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-06T09:51:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-06T09:51:45+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='18' [ RunTime:0.0680s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0080s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('e1ddffd07f192e4827c96db9d6898557','2') [ RunTime:0.1340s ]
+
+[ 2017-03-06T09:54:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+
+[ 2017-03-06T09:54:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T09:54:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+
+[ 2017-03-06T09:55:28+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+
+[ 2017-03-06T09:56:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = 'e1ddffd07f192e4827c96db9d6898557' LIMIT 1  
+
+[ 2017-03-06T09:56:40+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T09:56:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T09:56:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T09:58:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T09:58:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-06T09:59:02+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0060s ]
+
+[ 2017-03-06T09:59:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0080s ]
+
+[ 2017-03-06T09:59:10+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='19' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0070s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('682670984d0dbaf4f02f6b6a326bf357','2') [ RunTime:0.0490s ]
+
+[ 2017-03-06T09:59:45+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1  
+ERR: 1054:Champ 'userId' inconnu dans field list
+ [ SQL语句 ] : SELECT `userId` FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1  
+
+[ 2017-03-06T10:07:02+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+SQL: SELECT `u_id` FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+ERR: 1146:La table 'guangtianjin.g_users' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users`
+ERR: 1146:La table 'guangtianjin.g_users' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users`
+
+[ 2017-03-06T10:21:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+
+[ 2017-03-06T10:26:57+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026002s ]
+
+[ 2017-03-06T10:31:43+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\guangtianjin\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `g_activity` (`ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_content`,`ac_mobile`,`ac_address`) VALUES ('喜马拉雅fm','fm','2017-03-06 08:00:00','2017-03-06 10:00:00','武器二万人访问团任务','13333333333','werewrewwe 天津市大学软件学院') [ RunTime:0.0210s ]
+
+[ 2017-03-06T11:14:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:16:43+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030002s ]
+
+[ 2017-03-06T11:17:16+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T11:18:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-06T11:18:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:18:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T11:19:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:21:09+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:21:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T11:21:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-03-06T11:24:02+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:24:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:24:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T11:24:08+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-06T11:24:24+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:24:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:25:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-06T11:25:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T11:25:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-06T11:29:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.1090s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-06T11:30:00+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-06T11:33:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-06T11:33:17+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '682670984d0dbaf4f02f6b6a326bf357' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validDate D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

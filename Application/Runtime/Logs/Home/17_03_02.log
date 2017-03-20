@@ -1,0 +1,1106 @@
+[ 2017-03-02T09:53:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-03-02T09:54:17+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_admin` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `g_admin` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0250s ]
+
+[ 2017-03-02T09:54:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `g_userinfo`  [ RunTime:0.0020s ]
+
+[ 2017-03-02T09:59:45+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0240s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0010s ]
+
+[ 2017-03-02T10:15:05+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+
+[ 2017-03-02T10:16:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:userCenter方法不存在！
+
+[ 2017-03-02T10:19:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: Think\Controller:userCenter方法不存在！
+
+[ 2017-03-02T10:22:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0410s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+
+[ 2017-03-02T10:48:25+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0440s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-02T10:50:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0500s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-02T10:52:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0850s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-02T10:54:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0560s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+
+[ 2017-03-02T10:55:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0500s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+
+[ 2017-03-02T10:56:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0500s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+
+[ 2017-03-02T10:57:15+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0480s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+
+[ 2017-03-02T10:57:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0510s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 87 行.
+
+[ 2017-03-02T10:57:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0560s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 87 行.
+
+[ 2017-03-02T10:58:13+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0540s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 87 行.
+
+[ 2017-03-02T10:58:36+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0480s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 87 行.
+
+[ 2017-03-02T10:59:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0630s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-02T10:59:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.1000s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 86 行.
+
+[ 2017-03-02T11:01:21+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.1360s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Division by zero D:\wamp\www\guangtianjin\Application\Home\Controller\BackController.class.php 第 87 行.
+
+[ 2017-03-02T11:01:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0450s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo`  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-02T11:02:12+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0640s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,2   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-02T11:02:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0890s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,2   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T11:02:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0490s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,2   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T11:02:55+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0470s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T11:03:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0460s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 1,1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-02T11:04:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0310s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 1,1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T11:04:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-02T11:04:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0390s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 2,2   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-03-02T11:04:25+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0480s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 3,3   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-02T11:04:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0340s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 1,1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T11:04:57+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0490s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,2   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-03-02T11:05:06+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0450s ]
+SQL: SELECT `u_nickname`,`u_username`,`u_phone`,`u_lock` FROM `g_userinfo` LIMIT 0,3   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(u_id) AS tp_count FROM `g_userinfo` LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2017-03-02T11:09:29+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-02T11:10:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Back/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-02T11:10:58+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:userCenter方法不存在！
+
+[ 2017-03-02T11:11:35+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-02T11:12:11+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0420s ]
+SQL: SELECT `u_id` FROM `g_userinfo` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0510s ]
+SQL: SELECT `u_id`,`u_nickname`,`u_username`,`u_phone`,`u_sex`,`u_birth`,`u_hometown`,`u_place`,`u_address`,`u_ismarry`,`u_icon` FROM `g_userinfo` WHERE `u_id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-03-02T14:01:31+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.068004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+
+[ 2017-03-02T14:02:23+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.1140s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%ss%' AND `ac_lock` = 0  [ RunTime:0.1730s ]
+
+[ 2017-03-02T14:02:50+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0370s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%没%' AND `ac_lock` = 0  [ RunTime:0.0040s ]
+
+[ 2017-03-02T14:03:01+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0330s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%有%' AND `ac_lock` = 0  [ RunTime:0.0020s ]
+
+[ 2017-03-02T14:09:51+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0370s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%有%' AND `a_lock` = 1  [ RunTime:0.0320s ]
+
+[ 2017-03-02T14:10:47+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0360s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%p%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:10:57+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0490s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%Pic%' AND `a_lock` = 1  [ RunTime:0.0020s ]
+
+[ 2017-03-02T14:12:12+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+ERR: 1146:La table 'guangtianjin.g_users_token' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `g_users_token`
+
+[ 2017-03-02T14:12:41+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0310s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%没%' AND `ac_lock` = 0  [ RunTime:0.0040s ]
+
+[ 2017-03-02T14:13:20+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0420s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%没%' AND `ac_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:14:22+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0290s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%p%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T14:14:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0260s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%我%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:15:20+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0710s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%我%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:16:02+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0250s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%pic我是标题%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T14:17:03+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0510s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%pic我是标题%' AND `a_lock` = 1  [ RunTime:0.0020s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php:850) D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 389 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php:850) D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 390 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php:850) D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 391 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\guangtianjin\ThinkPHP\Common\functions.php:850) D:\wamp\www\guangtianjin\Application\Home\Controller\CommonController.class.php 第 392 行.
+
+[ 2017-03-02T14:17:51+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0270s ]
+
+[ 2017-03-02T14:32:57+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0460s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%pic我是标题%' AND `a_lock` = 1  [ RunTime:0.0020s ]
+
+[ 2017-03-02T14:33:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0280s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T14:35:05+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0270s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T14:48:37+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-02T14:48:44+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0330s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:51:42+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0400s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T14:52:01+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0630s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0040s ]
+
+[ 2017-03-02T14:52:50+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0480s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0020s ]
+
+[ 2017-03-02T14:53:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0370s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%c%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T14:56:14+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0270s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%没有%' AND `ac_lock` = 1  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: article D:\wamp\www\guangtianjin\Application\Home\Controller\ApiController.class.php 第 376 行.
+
+[ 2017-03-02T14:56:40+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_activity` [ RunTime:0.0340s ]
+SQL: SELECT `ac_title`,`ac_source`,`ac_startime`,`ac_endtime`,`ac_number`,`ac_content` FROM `g_activity` WHERE `ac_title` LIKE '%没有%' AND `ac_lock` = 1  [ RunTime:0.0020s ]
+
+[ 2017-03-02T14:57:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0470s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%dulala%' AND `a_lock` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T15:02:36+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0550s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%dulala%' AND `a_static` = 1  [ RunTime:0.0030s ]
+
+[ 2017-03-02T15:05:07+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0300s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%dulala%' AND `a_lock` = '1'  [ RunTime:0.0010s ]
+
+[ 2017-03-02T15:07:34+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0470s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%dulala%' AND `a_lock` = 1  [ RunTime:0.0210s ]
+
+[ 2017-03-02T15:08:01+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_article` [ RunTime:0.0460s ]
+SQL: SELECT `a_title`,`a_author`,`a_pic`,`a_content` FROM `g_article` WHERE `a_title` LIKE '%pic%' AND `a_lock` = 1  [ RunTime:0.0010s ]
+
+[ 2017-03-02T16:47:50+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='1' [ RunTime:0.1340s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\guangtianjin\Application\Home\Controller\ApiController.class.php 第 368 行.
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0280s ]
+SQL: INSERT INTO `g_users_token` (`token`) VALUES ('455c47502a3b7a22be78ebb6fbcbb27f') [ RunTime:0.0700s ]
+
+[ 2017-03-02T16:52:16+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='2' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\guangtianjin\Application\Home\Controller\ApiController.class.php 第 368 行.
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0250s ]
+SQL: INSERT INTO `g_users_token` (`token`) VALUES ('f0632d60c8f8b852c2fb4d6dbc8b9d99') [ RunTime:0.0460s ]
+
+[ 2017-03-02T16:52:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='3' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\guangtianjin\Application\Home\Controller\ApiController.class.php 第 368 行.
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0280s ]
+SQL: INSERT INTO `g_users_token` (`token`) VALUES ('b06642b71b3833a633d1958d03b068b7') [ RunTime:0.0100s ]
+
+[ 2017-03-02T16:52:24+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='4' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\guangtianjin\Application\Home\Controller\ApiController.class.php 第 368 行.
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0250s ]
+SQL: INSERT INTO `g_users_token` (`token`) VALUES ('6586bbb9eb0c52f41c0842dd1b11af58') [ RunTime:0.0140s ]
+
+[ 2017-03-02T17:01:12+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='5' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0340s ]
+SQL: INSERT INTO `g_users_token` (`token`) VALUES ('f3e79ca589f1d0f7a32c966cda2566a3') [ RunTime:0.0290s ]
+
+[ 2017-03-02T17:02:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='6' [ RunTime:0.0020s ]
+
+[ 2017-03-02T17:03:25+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='7' [ RunTime:0.0040s ]
+
+[ 2017-03-02T17:06:00+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='8' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0510s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('2ede2ef79450f08e96d2c14ddff2a246','2') [ RunTime:0.0130s ]
+
+[ 2017-03-02T17:06:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='9' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0460s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('b5f8e01b3649eabcc64960ef9cc0ce72','2') [ RunTime:0.0110s ]
+
+[ 2017-03-02T17:08:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='10' [ RunTime:0.0030s ]
+
+[ 2017-03-02T17:44:16+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '6586bbb9eb0c52f41c0842dd1b11af58'  [ RunTime:0.0010s ]
+
+[ 2017-03-02T17:45:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '6586bbb9eb0c52f41c0842dd1b11af58'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027001s ]
+
+[ 2017-03-02T17:48:46+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-02T17:48:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '6586bbb9eb0c52f41c0842dd1b11af58' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-02T17:49:18+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='11' [ RunTime:0.0020s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0300s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('39387ee8409fe82e185658a85143dd17','2') [ RunTime:0.0030s ]
+
+[ 2017-03-02T17:50:19+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '39387ee8409fe82e185658a85143dd17'  [ RunTime:0.0010s ]
+SQL: DELETE FROM `g_users_token` WHERE `token` = '39387ee8409fe82e185658a85143dd17' [ RunTime:0.0010s ]
+
+[ 2017-03-02T18:03:48+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='12' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0220s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('9e9d7574e82286be6e0bf0b7e86e0bb5','2') [ RunTime:0.0110s ]
+
+[ 2017-03-02T18:05:27+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='13' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0280s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('d76caebeb9ebf5c6718295eac42da42b','2') [ RunTime:0.0460s ]
+
+[ 2017-03-02T18:05:49+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='14' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0260s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('6eb2832223d78f6fb87efaf2af8c0a38','2') [ RunTime:0.0030s ]
+
+[ 2017-03-02T18:06:52+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='15' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0240s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('bb7c60600c16c1c99e5f912895de94d4','2') [ RunTime:0.0440s ]
+
+[ 2017-03-02T18:07:43+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '39387ee8409fe82e185658a85143dd17'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-02T18:08:54+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '39387ee8409fe82e185658a85143dd17'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-02T18:09:26+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='16' [ RunTime:0.0030s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0520s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('af1f41eaa4c71a0aec2097a9378c8d0c','2') [ RunTime:0.0650s ]
+
+[ 2017-03-02T18:09:39+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = 'af1f41eaa4c71a0aec2097a9378c8d0c'  [ RunTime:0.0020s ]
+SQL: DELETE FROM `g_users_token` WHERE `token` = 'af1f41eaa4c71a0aec2097a9378c8d0c' [ RunTime:0.0030s ]
+
+[ 2017-03-02T18:10:04+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_userinfo` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `g_userinfo` WHERE ( (u_phone="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") or (u_nickname="18888888888" and u_password="e10adc3949ba59abbe56e057f20f883e") ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_login_num` FROM `g_userinfo` LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `g_userinfo` SET `u_login_num`='17' [ RunTime:0.0020s ]
+SQL: SELECT * FROM `g_userinfo` WHERE `u_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0260s ]
+SQL: INSERT INTO `g_users_token` (`token`,`u_id`) VALUES ('4441825ccf0bf1a94638bc9b66a8943f','2') [ RunTime:0.0040s ]
+
+[ 2017-03-02T18:10:28+08:00 ] 127.0.0.1 /guangtianjin/index.php/Home/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `g_users_token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f'  [ RunTime:0.0010s ]
+SQL: DELETE FROM `g_users_token` WHERE `token` = '4441825ccf0bf1a94638bc9b66a8943f' [ RunTime:0.0170s ]
+
